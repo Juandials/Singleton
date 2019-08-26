@@ -47,12 +47,12 @@ public class Singleton {
         return Single;
     }
     public static void main(String[] args) {
-        Singleton ricardo = Single.getSingletonInstance("Juan");
-        Singleton ramon = Single.getSingletonInstance("Mr. Nobody");
+        Singleton Juan = Single.getSingletonInstance("Juan");
+        Singleton Mr = Single.getSingletonInstance("Mr. Nobody");
         
    
-        System.out.println(ramon.getNombre());
-        System.out.println(ricardo.getNombre()); 
+        System.out.println(Juan.getNombre());
+        System.out.println(Mr.getNombre()); 
     }
     
 }
